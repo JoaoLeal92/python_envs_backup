@@ -7,18 +7,18 @@ The code create and mantains the following folder structure:
 ```
 year_directory
   |
-  +-- month1_directory
+  ├─ month1_directory
   |   |
-  |   +-- day1_directory
-  |   +-- day2_directory
-  |   +-- day3_directory
+  |   ├─ day1_directory
+  |   ├─ day2_directory
+  |   └─ day3_directory
   |
   |
-  +-- month2_directory
+  └─ month2_directory
       |
-      +-- day1_directory
-      +-- day2_directory
-      +-- day3_directory
+      ├─ day1_directory
+      ├─ day2_directory
+      └─ day3_directory
 ```
 
 Every new day/month/year a new directory will be created, and directories older than 1 year will be deleted.
